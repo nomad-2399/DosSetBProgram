@@ -74,7 +74,16 @@ Node* search(Node* root, char* data)
         return left ? left : search(root->right, data);
     }
 }
-
+void printDownline(Node* root) {
+    if (root == NULL)
+        return;
+    //space += COUNT;
+    //printTree(root->right, space);
+    for (int i = COUNT; i < space; i++)
+        printf("\t");
+    /*cout << root->data << "\n";*/
+    ///printTree(root->left, space);
+}
 //void newMember(Node* root) {
 //    char tmpName[100];
 //    int data;
