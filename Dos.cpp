@@ -79,6 +79,9 @@ int main()
            insDone = 0;
        }
                break;
+       case 3:
+            printDownline(Node * root);
+            break;
        case 4: print2D(root);
            printf("\n\n\n\n\n DOS Membership Tree \n -- Press any key to continue -- ");
            _getch();
