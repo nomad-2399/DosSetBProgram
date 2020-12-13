@@ -66,6 +66,9 @@ int main()
            insDone = 0;
        }
                break;
+       case 3:
+               printList(Node* root);
+               break;
        case 4: print2D(root);
                break;
 
